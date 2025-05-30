@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #1F595B;
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+body{
+    background-color: #F0F0F0;
+}
+nav{
+    margin-left: 50vw;
+    padding: 40px;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+.logo_site{
+    width: 160px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 5%;
+
+}
+footer{
+    background-color: #313131;
+    width: 100%;
+    height: 130px;
+    margin-top: 32.1%; /*Tirar depois de colocar todo conteúdo da página*/
+    float: right;
+}
+.lista-footer{
+    color: aliceblue;
+    margin-left: 20px;
+    height: 72px;
+    margin-top: 10px;
+    list-style: none;
+    position: relative;
+}
+
+.lista-footer li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.espacamento{
+    margin-left: 20%;
+}
+.links-footer{
+    display: flex;
+}
+.copyright{
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 25px;
+}
