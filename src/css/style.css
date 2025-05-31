@@ -59,3 +59,54 @@ footer{
     color: aliceblue;
     margin-top: 25px;
 }
+.title-project{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.title-project::first-letter{
+    font-size: 2em;
+    font-family: 'Times New Roman';
+}
+.botoes {
+  display: flex;
+  justify-content: center; /* Centraliza os botões */
+  margin-left: 50%;
+}
+
+.botao {
+  background-color: #1F595B;
+  width: 90px;
+  height: 30px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px black solid;
+  margin-left: 5px;
+}
+.botao a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.text-project{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.noticia1{
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 40%;
+}
+.img-inicial{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-image: url("../assets/imgs/img-problema.png");
+}
+.title-img-inicial{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30;
+}

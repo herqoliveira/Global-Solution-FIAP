@@ -18,29 +18,12 @@
     </header>
     <!--=============================Body===============================-->
     <section>
-        <div class="img-inicial">
-            <h1 class="title-img-inicial">Problema</h1>
-        </div>
-        <h1 class="title-project">O Problema Atual</h1>
-        <p class="text-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium alias accusantium tempore aliquam minus sunt, nihil non repudiandae reiciendis et ex iure hic dicta nobis aliquid repellendus at maxime.</p>
-        <img src="../assets/imgs/noticia1-bueiro.png" class="noticia1">
-        <p class="text-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium alias accusantium tempore aliquam minus sunt, nihil non repudiandae reiciendis et ex iure hic dicta nobis aliquid repellendus at maxime.</p>
-
+        <h1 class="title-project">[===========X===========]</h1>
     </section>
     <div class="botoes">
         <button class="botao proximo"><a href="../../index.html">Voltar</a></button>
         <button class="botao voltar"><a href="tecnologia.html">Próximo</a></button>
     </div>
-
-
-
-
-
-
-
-
-
-
     <!--=============================Footer===============================-->
     <footer>
         <div class="links-footer">
