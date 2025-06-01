@@ -1,13 +1,13 @@
 function finalizarQuiz() {
   const respostasCorretas = {
-    q1: 'c',
-    q2: 'b',
-    q3: 'c',
-    q4: 'b',
+    q1: 'a',
+    q2: 'c',
+    q3: 'b',
+    q4: 'd',
     q5: 'c',
     q6: 'b',
-    q7: 'c',
-    q8: 'b',
+    q7: 'a',
+    q8: 'd',
     q9: 'c',
     q10: 'b'
   };
