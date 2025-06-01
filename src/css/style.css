@@ -83,6 +83,7 @@ footer{
   justify-content: center;
   border: 1px black solid;
   margin-left: 5px;
+  color: aliceblue;
 }
 .botao a {
   color: aliceblue;
@@ -182,4 +183,26 @@ footer{
 .formulario-quiz{
     margin-left: 15%;
     margin-top: 20px;
+    background-color: #f5efcb;
+    width: 65%;
+    border-radius: 14px;
+    border: 1px #313131 solid;
+    margin-bottom: 20px;
+}
+.pergunta{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.alternativa{
+    width: 20%;
+    border-radius: 5px;
+}
+.finalizar{
+    margin: 30px 20px 20px;
+    width: 150px;
+}
+.resultado{
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
 }
