@@ -144,8 +144,6 @@ footer{
     background-image: url("../assets/imgs/img-inicial-beneficios.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .img-inicial-publico{
     width: 100%;
@@ -154,6 +152,4 @@ footer{
     background-image: url("../assets/imgs/img-inicial-publico.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
