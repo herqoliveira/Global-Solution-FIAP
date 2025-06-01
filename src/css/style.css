@@ -103,10 +103,13 @@ footer{
     height: 200px;
     margin-top: 10px;
     background-image: url("../assets/imgs/img-problema.png");
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 .title-img-inicial{
     color: aliceblue;
     text-align: center;
     justify-content: center;
-    margin-top: 30;
+    padding-top: 70px;
+    font-size: 3em;
 }

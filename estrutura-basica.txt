@@ -20,6 +20,7 @@
     <section>
         <h1 class="title-project">[===========X===========]</h1>
     </section>
+    
     <div class="botoes">
         <button class="botao proximo"><a href="../../index.html">Voltar</a></button>
         <button class="botao voltar"><a href="tecnologia.html">Próximo</a></button>
