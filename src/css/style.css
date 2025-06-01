@@ -31,7 +31,6 @@ footer{
     background-color: #313131;
     width: 100%;
     height: 130px;
-    margin-top: 32.1%; /*Tirar depois de colocar todo conteúdo da página*/
     float: right;
 }
 .lista-footer{
@@ -71,6 +70,7 @@ footer{
   display: flex;
   justify-content: center; /* Centraliza os botões */
   margin-left: 50%;
+  margin-bottom: 20px;
 }
 
 .botao {
