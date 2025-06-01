@@ -98,7 +98,7 @@ footer{
     margin-top: 2%;
     width: 40%;
 }
-.img-inicial{
+.img-inicial-problemas{
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -113,6 +113,43 @@ footer{
     padding-top: 70px;
     font-size: 3em;
 }
-.probemas{
+.img-inicial-tecnologia{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
     background-image: url("../assets/imgs/img-problema.png");
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.img-inicial-objetivo{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-image: url("../assets/imgs/img-problema.png");
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.img-inicial-impactos{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-image: url("../assets/imgs/img-problema.png");
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.img-inicial-beneficios{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-image: url("../assets/imgs/img-problema.png");
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.img-inicial-publico{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-image: url("../assets/imgs/img-problema.png");
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
