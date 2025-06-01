@@ -110,11 +110,12 @@ footer{
     background-size: cover;
 }
 .title-img-inicial{
-    color: aliceblue;
+    color: white;
     text-align: center;
     justify-content: center;
     padding-top: 70px;
     font-size: 3em;
+    
 }
 .img-inicial-tecnologia{
     width: 100%;
