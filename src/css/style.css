@@ -117,7 +117,7 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 10px;
-    background-image: url("../assets/imgs/img-inicial-tecnologia.jpg");
+    background-image: url("../assets/imgs/banner-tecnologia.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -125,7 +125,7 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 10px;
-    background-image: url("../assets/imgs/img-inicial-objetivos.jpg");
+    background-image: url("../assets/imgs/banner-objetivos.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -133,7 +133,7 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 10px;
-    background-image: url("../assets/imgs/img-inicial-impactos.jpg");
+    background-image: url("../assets/imgs/banner-impactos.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -141,7 +141,7 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 10px;
-    background-image: url("../assets/imgs/img-inicial-beneficios.jpg");
+    background-image: url("../assets/imgs/banner-beneficios.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -149,7 +149,8 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 10px;
-    background-image: url("../assets/imgs/img-inicial-publico.jpg");
+    background-image: url("../assets/imgs/banner-publico.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    filter: blur(5px);
 }
