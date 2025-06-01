@@ -105,6 +105,8 @@ footer{
     background-image: url("../assets/imgs/img-problema.png");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .title-img-inicial{
     color: aliceblue;
@@ -120,6 +122,8 @@ footer{
     background-image: url("../assets/imgs/banner-tecnologia.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img-inicial-objetivo{
     width: 100%;
@@ -128,6 +132,8 @@ footer{
     background-image: url("../assets/imgs/banner-objetivos.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img-inicial-impactos{
     width: 100%;
@@ -136,6 +142,8 @@ footer{
     background-image: url("../assets/imgs/banner-impactos.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img-inicial-beneficios{
     width: 100%;
@@ -144,6 +152,8 @@ footer{
     background-image: url("../assets/imgs/banner-beneficios.jpg");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img-inicial-publico{
     width: 100%;
