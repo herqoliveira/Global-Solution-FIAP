@@ -1,39 +1,46 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     background-color: #1F595B;
     height: 90px;
     width: 100%;
     display: flex;
 }
-body{
+
+body {
     background-color: #F0F0F0;
 }
-nav{
+
+nav {
     margin-left: 50vw;
     padding: 40px;
 }
-nav a{
+
+nav a {
     color: aliceblue;
     text-decoration: none;
     padding: 10px;
 }
-.logo_site{
+
+.logo_site {
     width: 160px;
     height: 70px;
     margin-top: 10px;
     margin-left: 5%;
 
 }
-footer{
+
+footer {
     background-color: #313131;
     width: 100%;
     height: 130px;
     float: right;
 }
-.lista-footer{
+
+.lista-footer {
     color: aliceblue;
     margin-left: 20px;
     height: 72px;
@@ -42,64 +49,81 @@ footer{
     position: relative;
 }
 
-.lista-footer li a{
+.lista-footer li a {
     color: aliceblue;
     text-decoration: none;
 }
-.espacamento{
+
+.espacamento {
     margin-left: 20%;
 }
-.links-footer{
+
+.links-footer {
     display: flex;
 }
-.copyright{
+
+.copyright {
     justify-content: center;
     text-align: center;
     color: aliceblue;
     margin-top: 25px;
 }
-.title-project{
+
+.title-project {
     margin-left: 10%;
     margin-top: 2%;
 }
-.title-project::first-letter{
+
+.title-project::first-letter {
     font-size: 2em;
     font-family: 'Times New Roman';
 }
+
 .botoes {
-  display: flex;
-  justify-content: center; /* Centraliza os botões */
-  margin-left: 50%;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza os botões */
+    margin-left: 50%;
+    margin-bottom: 20px;
 }
 
 .botao {
-  background-color: #1F595B;
-  width: 90px;
-  height: 30px;
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px black solid;
-  margin-left: 5px;
-  color: aliceblue;
+    background-color: #1F595B;
+    width: 90px;
+    height: 30px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    margin-left: 5px;
+    color: aliceblue;
 }
+
 .botao a {
-  color: aliceblue;
-  text-decoration: none;
+    color: aliceblue;
+    text-decoration: none;
 }
-.text-project{
+
+.text-project {
     width: 70%;
     margin-left: 10%;
     margin-top: 2%;
 }
-.noticia1{
+
+.noticia1 {
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 3%;
     width: 40%;
 }
-.img-inicial-problemas{
+
+.texto1 {
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.img-inicial-problemas {
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -109,7 +133,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.title-img-inicial{
+
+.title-img-inicial {
     color: white;
     text-align: center;
     justify-content: center;
@@ -117,7 +142,7 @@ footer{
     font-size: 3em;
 }
 
-.img-inicial-tecnologia{
+.img-inicial-tecnologia {
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -127,7 +152,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-inicial-home{
+
+.img-inicial-home {
     width: 100%;
     height: 400px;
     margin-top: 10px;
@@ -137,7 +163,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-inicial-objetivo{
+
+.img-inicial-objetivo {
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -147,7 +174,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-inicial-impactos{
+
+.img-inicial-impactos {
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -157,7 +185,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-inicial-beneficios{
+
+.img-inicial-beneficios {
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -167,7 +196,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-inicial-publico{
+
+.img-inicial-publico {
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -177,7 +207,8 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-inicial-quiz{
+
+.img-inicial-quiz {
     width: 100%;
     height: 200px;
     margin-top: 10px;
@@ -187,11 +218,13 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img-inicial-quiz h1{
+
+.img-inicial-quiz h1 {
     color: #1F595B;
 }
+
 /*===================QUIZ=======================*/
-.formulario-quiz{
+.formulario-quiz {
     margin-left: 15%;
     margin-top: 20px;
     background-color: #f5efcb;
@@ -200,57 +233,26 @@ footer{
     border: 1px #313131 solid;
     margin-bottom: 20px;
 }
-.pergunta{
+
+.pergunta {
     margin-top: 20px;
     margin-left: 30px;
 }
-.alternativa{
+
+.alternativa {
     width: 20%;
     border-radius: 5px;
 }
-.finalizar{
+
+.finalizar {
     margin: 30px 20px 20px;
     width: 150px;
 }
-.resultado{
+
+.resultado {
     text-align: center;
     justify-content: center;
     font-size: 2em;
 }
-.carrossel {
-  position: relative;
-  width: 600px;
-  height: 400px;
-  overflow: hidden;
-  margin: auto;
-}
 
-.slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.slide.ativo {
-  opacity: 1;
-  z-index: 1;
-}
-
-button.voltar,
-button.proximo {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0,0,0,0.4);
-  color: white;
-  border: none;
-  font-size: 20px;
-  padding: 10px;
-  cursor: pointer;
-}
-
-button.voltar { left: 10px; }
-button.proximo { right: 10px; }
+/*===================CARROSSEL=======================*/
