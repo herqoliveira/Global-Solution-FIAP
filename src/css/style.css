@@ -326,7 +326,7 @@ footer {
 }
 
 
-/*===================MENU=======================*/
+/*===================MENU HAMBURGUER=======================*/
 
 #menu
 {
@@ -439,7 +439,7 @@ footer {
     height: 460px;
     transform: translate(-60%,-30%);
 }
-
+/* Menu tradicional some em telas pequenas */
 .menu-desktop {
   display: flex;
 }
