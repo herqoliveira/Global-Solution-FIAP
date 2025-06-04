@@ -40,7 +40,7 @@ nav a.selected::after {
     left: 10px;
     right: 10px;
     height: 3px;
-    background-color: rgb(180, 213, 241); /* amarelo */
+    background-color: rgb(180, 213, 241);
     border-radius: 2px;
 }
 
@@ -97,11 +97,11 @@ footer {
 .title-project {
     margin-left: 10%;
     margin-top: 2%;
+    font-family: 'Times New Roman';
 }
 
 .title-project::first-letter {
     font-size: 2em;
-    font-family: 'Times New Roman';
 }
 
 .botoes {
@@ -125,6 +125,9 @@ footer {
     margin-left: 5px;
     color: aliceblue;
 }
+.botao:hover{
+    background-color: rgb(66, 105, 139);
+}
 
 .botao a {
     color: aliceblue;
@@ -133,12 +136,12 @@ footer {
 
 .text-project {
     width: 70%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 2%;
 }
 
 .noticia1 {
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 3%;
     width: 40%;
 }
