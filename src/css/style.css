@@ -26,11 +26,15 @@ nav a {
 }
 
 .logo_site {
-    width: 160px;
-    height: 70px;
-    margin-top: 10px;
+    width: 130px;
+    height: 130px;
+    margin-left: 3%;
+}
+.bg-logo{
+    background-color: #F0F0F0;
+    width: 90px;
+    height: 90px;
     margin-left: 5%;
-
 }
 
 footer {
