@@ -373,8 +373,8 @@ footer {
 .nav li
 {
     list-style: none;
-    padding: 12px 0;
-    margin-left: 10%;
+    padding: 12px;
+    margin-left: -10%;
 }
  
 .nav li a
@@ -382,6 +382,8 @@ footer {
     color: white;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
 }
  
 .nav li a:hover
@@ -430,7 +432,7 @@ footer {
  
 .change-bg
 {
-    width: 520px;
+    width: 580px;
     height: 460px;
     transform: translate(-60%,-30%);
 }
@@ -444,12 +446,31 @@ footer {
 }
 
 /* Quando a tela for menor que 1000px */
-@media screen and (max-width: 1000px) {
-  .menu-desktop {
-    display: none;
-  }
+/* Para telas maiores que 700px: mostra menu tradicional e esconde hamburguer */
+@media screen and (min-width: 701px) {
+    #menu,
+    .menu-bg,
+    .nav {
+        display: none;
+    }
 
-  #menu {
-    display: block;
-  }
+    nav .espaco-header {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+/* Para telas menores ou iguais a 700px: mostra hamburguer e esconde menu tradicional */
+@media screen and (max-width: 700px) {
+    nav .espaco-header {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .menu-bg {
+        display: block;
+    }
 }
