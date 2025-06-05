@@ -35,6 +35,8 @@
 ♦️ Acesse o Projeto
     🔗 GitHub Pages:
     https://herqoliveira.github.io/Global-Solution-FIAP/
+    🔗 GitHub Repositories:
+    
 
 🖋️ Equipe de Desenvolvimento
     RM566424 – Henrique de Oliveira Gomes
