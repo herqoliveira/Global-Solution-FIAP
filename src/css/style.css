@@ -182,7 +182,6 @@ footer {
     width: 100%;
     height: 400px;
     margin-top: 10px;
-    background-image: url("../assets/imgs/banner-home.png");
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     background-repeat: no-repeat;
@@ -473,4 +472,58 @@ footer {
     .menu-bg {
         display: block;
     }
+}
+
+
+
+
+/*===================MENU HAMBURGUER=======================*/
+.tema-claro {
+    background-color: #F0F0F0;
+    color: #333;
+}
+
+.tema-escuro {
+    background-color: #242424;
+    color: #f0f0f0;
+}
+
+.tema-OffWhite {
+    background-color: #68675a;
+    color: #141414;
+}
+.text-project {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    transition: color 0.3s ease;
+}
+.tema-claro .text-project {
+    color: #333;
+}
+
+.tema-escuro .text-project {
+    color: #f0f0f0;
+}
+
+.tema-OffWhite .text-project {
+    color: #dcdcdc;
+}
+.imagem-tema{
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+}
+.temas{
+    background-color: #1F595B;
+    width: 170px;
+    height: 50px;
+    border-radius: 0px 0px 14px 14px;
+    margin: 0 auto;
+}
+.temas button{
+    margin-left: 17px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
 }
